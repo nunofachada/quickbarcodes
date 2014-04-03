@@ -1,0 +1,24 @@
+\begin{textblock}{1}(<pos_x>,<pos_y>)
+\begin{center}
+
+\vbox to 2mm {\vfil
+{\scriptsize <prod_ref>}
+\vfil
+}
+
+\vbox to 20mm {\vfil
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{<barcode>}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\small \EUR{<cost>}}
+\end{sideways}}
+\newline
+{\tiny <prod_name>}
+\vfil
+}
+
+\end{center}
+\end{textblock}
+

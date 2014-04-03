@@ -1,0 +1,172 @@
+\documentclass[a4paper]{article}
+\usepackage{pst-barcode}
+\usepackage{rotating}
+\usepackage[absolute,showboxes]{textpos}
+\usepackage[right]{eurosym}
+
+%\setlength{\TPHorizModule}{1cm}
+%\setlength{\TPVertModule}{\TPHorizModule}
+\TPGrid{5}{10}
+\textblockorigin{0.3cm}{0.5cm} % start everything near the top-left corner
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\begin{textblock}{1}(0,0)
+\begin{center}
+Prod\_Reference\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(1,0)
+\begin{center}
+1,0\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(2,0)
+\begin{center}
+2,0\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(3,0)
+\begin{center}
+3,0\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(2,2)
+\begin{center}
+\textsf{\scriptsize 020163}
+\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1010052720008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{300.00}}
+\end{sideways}}
+\newline
+\textsf{\tiny COPOS SNIPER}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(0,1)
+\begin{center}
+0,1\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(2,1)
+\begin{center}
+2,1\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(2,8)
+\begin{center}
+2,8\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\newpage\leavevmode\thispagestyle{empty}\newpage
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\begin{textblock}{1}(0,0)
+\begin{center}
+Prod\_Reference\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{1}(1,0)
+\begin{center}
+1,0\\
+\mbox{ }
+\begin{pspicture}(3cm,1cm)
+    \psbarcode[scalex=0.9,scaley=0.8]{1909079489008}{includetext textsize=6 height=0.6}{ean13}
+\end{pspicture}
+\mbox{\begin{sideways}
+\textbf{\EUR{40,00}}
+\end{sideways}}
+\newline
+{\scriptsize long product name}
+\end{center}
+\end{textblock}
+
+
+\end{document}
